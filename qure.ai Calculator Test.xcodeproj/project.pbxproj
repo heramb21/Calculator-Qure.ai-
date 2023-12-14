@@ -14,6 +14,23 @@
 		8CC1513D2B2B754C00B1FDD8 /* qure_ai_Calculator_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1513B2B2B754C00B1FDD8 /* qure_ai_Calculator_Test.xcdatamodeld */; };
 		8CC1513F2B2B754E00B1FDD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC1513E2B2B754E00B1FDD8 /* Assets.xcassets */; };
 		8CC151422B2B754E00B1FDD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC151402B2B754E00B1FDD8 /* LaunchScreen.storyboard */; };
+		8CC151502B2B771300B1FDD8 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1514F2B2B771300B1FDD8 /* RoundButton.swift */; };
+		8CC151522B2B774000B1FDD8 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC151512B2B774000B1FDD8 /* TextTableViewCell.swift */; };
+		8CC151552B2B779500B1FDD8 /* SelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC151542B2B779500B1FDD8 /* SelectionTableViewCell.swift */; };
+		8CC151572B2B780300B1FDD8 /* SelectionSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC151562B2B780300B1FDD8 /* SelectionSummaryTableViewCell.swift */; };
+		8CC1515A2B2B784000B1FDD8 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC151592B2B784000B1FDD8 /* ImageTableViewCell.swift */; };
+		8CC1515C2B2B78BB00B1FDD8 /* Formatter+BinaryString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1515B2B2B78BB00B1FDD8 /* Formatter+BinaryString.swift */; };
+		8CC1515E2B2B78E600B1FDD8 /* Formatter+ScientificNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1515D2B2B78E600B1FDD8 /* Formatter+ScientificNotation.swift */; };
+		8CC151602B2B790800B1FDD8 /* UIWindow+isLandscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1515F2B2B790800B1FDD8 /* UIWindow+isLandscape.swift */; };
+		8CC151622B2B797300B1FDD8 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC151612B2B797300B1FDD8 /* StateController.swift */; };
+		8CC151642B2B799B00B1FDD8 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC151632B2B799B00B1FDD8 /* UserPreferences.swift */; };
+		8CC151662B2B79F000B1FDD8 /* DataPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC151652B2B79F000B1FDD8 /* DataPersistence.swift */; };
+		8CC151682B2B7A1A00B1FDD8 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC151672B2B7A1A00B1FDD8 /* UIHelper.swift */; };
+		8CC1516A2B2B7A8F00B1FDD8 /* ColourNumberConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC151692B2B7A8F00B1FDD8 /* ColourNumberConverter.swift */; };
+		8CC1516C2B2B7B1500B1FDD8 /* CopyOrPasteActionConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1516B2B2B7B1500B1FDD8 /* CopyOrPasteActionConverter.swift */; };
+		8CC1516E2B2B7B4B00B1FDD8 /* HistoryButtonViewConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1516D2B2B7B4B00B1FDD8 /* HistoryButtonViewConverter.swift */; };
+		8CC151702B2B7B8700B1FDD8 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1516F2B2B7B8700B1FDD8 /* Operation.swift */; };
+		8CC151722B2B7BA300B1FDD8 /* CalculationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC151712B2B7BA300B1FDD8 /* CalculationData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +43,23 @@
 		8CC1513E2B2B754E00B1FDD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CC151412B2B754E00B1FDD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CC151432B2B754E00B1FDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CC1514F2B2B771300B1FDD8 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		8CC151512B2B774000B1FDD8 /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		8CC151542B2B779500B1FDD8 /* SelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionTableViewCell.swift; sourceTree = "<group>"; };
+		8CC151562B2B780300B1FDD8 /* SelectionSummaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSummaryTableViewCell.swift; sourceTree = "<group>"; };
+		8CC151592B2B784000B1FDD8 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		8CC1515B2B2B78BB00B1FDD8 /* Formatter+BinaryString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Formatter+BinaryString.swift"; sourceTree = "<group>"; };
+		8CC1515D2B2B78E600B1FDD8 /* Formatter+ScientificNotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Formatter+ScientificNotation.swift"; sourceTree = "<group>"; };
+		8CC1515F2B2B790800B1FDD8 /* UIWindow+isLandscape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+isLandscape.swift"; sourceTree = "<group>"; };
+		8CC151612B2B797300B1FDD8 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		8CC151632B2B799B00B1FDD8 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		8CC151652B2B79F000B1FDD8 /* DataPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistence.swift; sourceTree = "<group>"; };
+		8CC151672B2B7A1A00B1FDD8 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		8CC151692B2B7A8F00B1FDD8 /* ColourNumberConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourNumberConverter.swift; sourceTree = "<group>"; };
+		8CC1516B2B2B7B1500B1FDD8 /* CopyOrPasteActionConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyOrPasteActionConverter.swift; sourceTree = "<group>"; };
+		8CC1516D2B2B7B4B00B1FDD8 /* HistoryButtonViewConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryButtonViewConverter.swift; sourceTree = "<group>"; };
+		8CC1516F2B2B7B8700B1FDD8 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		8CC151712B2B7BA300B1FDD8 /* CalculationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +92,81 @@
 		8CC151312B2B754C00B1FDD8 /* qure.ai Calculator Test */ = {
 			isa = PBXGroup;
 			children = (
+				8CC1514E2B2B76B000B1FDD8 /* Views */,
+				8CC1514D2B2B76A200B1FDD8 /* ViewControllers */,
+				8CC1514C2B2B769500B1FDD8 /* Extensions */,
+				8CC1514B2B2B768700B1FDD8 /* Model */,
+				8CC151492B2B75C500B1FDD8 /* Resources */,
 				8CC151322B2B754C00B1FDD8 /* AppDelegate.swift */,
 				8CC151342B2B754C00B1FDD8 /* SceneDelegate.swift */,
-				8CC151362B2B754C00B1FDD8 /* ViewController.swift */,
-				8CC151382B2B754C00B1FDD8 /* Main.storyboard */,
-				8CC1513E2B2B754E00B1FDD8 /* Assets.xcassets */,
-				8CC151402B2B754E00B1FDD8 /* LaunchScreen.storyboard */,
 				8CC151432B2B754E00B1FDD8 /* Info.plist */,
-				8CC1513B2B2B754C00B1FDD8 /* qure_ai_Calculator_Test.xcdatamodeld */,
 			);
 			path = "qure.ai Calculator Test";
+			sourceTree = "<group>";
+		};
+		8CC151492B2B75C500B1FDD8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CC1513E2B2B754E00B1FDD8 /* Assets.xcassets */,
+				8CC1513B2B2B754C00B1FDD8 /* qure_ai_Calculator_Test.xcdatamodeld */,
+				8CC1514A2B2B75D600B1FDD8 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8CC1514A2B2B75D600B1FDD8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8CC151402B2B754E00B1FDD8 /* LaunchScreen.storyboard */,
+				8CC151382B2B754C00B1FDD8 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8CC1514B2B2B768700B1FDD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CC151612B2B797300B1FDD8 /* StateController.swift */,
+				8CC151632B2B799B00B1FDD8 /* UserPreferences.swift */,
+				8CC151652B2B79F000B1FDD8 /* DataPersistence.swift */,
+				8CC151672B2B7A1A00B1FDD8 /* UIHelper.swift */,
+				8CC151692B2B7A8F00B1FDD8 /* ColourNumberConverter.swift */,
+				8CC1516B2B2B7B1500B1FDD8 /* CopyOrPasteActionConverter.swift */,
+				8CC1516D2B2B7B4B00B1FDD8 /* HistoryButtonViewConverter.swift */,
+				8CC1516F2B2B7B8700B1FDD8 /* Operation.swift */,
+				8CC151712B2B7BA300B1FDD8 /* CalculationData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8CC1514C2B2B769500B1FDD8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8CC1515B2B2B78BB00B1FDD8 /* Formatter+BinaryString.swift */,
+				8CC1515D2B2B78E600B1FDD8 /* Formatter+ScientificNotation.swift */,
+				8CC1515F2B2B790800B1FDD8 /* UIWindow+isLandscape.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8CC1514D2B2B76A200B1FDD8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CC151362B2B754C00B1FDD8 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8CC1514E2B2B76B000B1FDD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CC1514F2B2B771300B1FDD8 /* RoundButton.swift */,
+				8CC151512B2B774000B1FDD8 /* TextTableViewCell.swift */,
+				8CC151542B2B779500B1FDD8 /* SelectionTableViewCell.swift */,
+				8CC151562B2B780300B1FDD8 /* SelectionSummaryTableViewCell.swift */,
+				8CC151592B2B784000B1FDD8 /* ImageTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +240,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CC151522B2B774000B1FDD8 /* TextTableViewCell.swift in Sources */,
+				8CC151642B2B799B00B1FDD8 /* UserPreferences.swift in Sources */,
 				8CC151372B2B754C00B1FDD8 /* ViewController.swift in Sources */,
+				8CC151702B2B7B8700B1FDD8 /* Operation.swift in Sources */,
+				8CC1516E2B2B7B4B00B1FDD8 /* HistoryButtonViewConverter.swift in Sources */,
+				8CC151662B2B79F000B1FDD8 /* DataPersistence.swift in Sources */,
+				8CC1516C2B2B7B1500B1FDD8 /* CopyOrPasteActionConverter.swift in Sources */,
+				8CC151502B2B771300B1FDD8 /* RoundButton.swift in Sources */,
+				8CC1515A2B2B784000B1FDD8 /* ImageTableViewCell.swift in Sources */,
+				8CC151552B2B779500B1FDD8 /* SelectionTableViewCell.swift in Sources */,
+				8CC151682B2B7A1A00B1FDD8 /* UIHelper.swift in Sources */,
+				8CC151602B2B790800B1FDD8 /* UIWindow+isLandscape.swift in Sources */,
+				8CC1516A2B2B7A8F00B1FDD8 /* ColourNumberConverter.swift in Sources */,
 				8CC151332B2B754C00B1FDD8 /* AppDelegate.swift in Sources */,
+				8CC1515C2B2B78BB00B1FDD8 /* Formatter+BinaryString.swift in Sources */,
+				8CC151622B2B797300B1FDD8 /* StateController.swift in Sources */,
+				8CC151722B2B7BA300B1FDD8 /* CalculationData.swift in Sources */,
+				8CC1515E2B2B78E600B1FDD8 /* Formatter+ScientificNotation.swift in Sources */,
+				8CC151572B2B780300B1FDD8 /* SelectionSummaryTableViewCell.swift in Sources */,
 				8CC1513D2B2B754C00B1FDD8 /* qure_ai_Calculator_Test.xcdatamodeld in Sources */,
 				8CC151352B2B754C00B1FDD8 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,11 +409,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "qure.ai Calculator Test/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +424,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.me.qure-ai-Calculator-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,11 +442,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "qure.ai Calculator Test/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,6 +457,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.me.qure-ai-Calculator-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
