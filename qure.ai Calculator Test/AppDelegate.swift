@@ -15,6 +15,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // Override point for customization after application launch
+        let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+        let fullPath = paths[0].appendingPathComponent("userPreferences")
+        if let nsData = NSData(contentsOf: fullPath) {
+            do {
+                
+                let data = Data(referencing:nsData)
+                
+                if let loadedPreferences = try NSKeyedUnarchiver.unarchivedObject(ofClass: UserPreferences.self, from: data) {
+                    let userPreferences = UserPreferences(colour: loadedPreferences.colour, colourNum: loadedPreferences.colourNum,
+                                                          hexTabState: true, binTabState: loadedPreferences.binTabState, decTabState: loadedPreferences.decTabState,
+                                                          setCalculatorTextColour: loadedPreferences.setCalculatorTextColour,
+                                                          copyActionIndex: loadedPreferences.copyActionIndex, pasteActionIndex: loadedPreferences.pasteActionIndex,
+                                                          historyButtonViewIndex: 0)
+                    DataPersistence.savePreferences(userPreferences: userPreferences)
+                    UITabBar.appearance().tintColor = loadedPreferences.colour
+                }
+            } catch {
+                print("Couldn't read file.")
+            }
+        }
         return true
     }
 
