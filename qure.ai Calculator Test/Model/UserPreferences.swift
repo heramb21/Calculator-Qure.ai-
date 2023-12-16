@@ -97,7 +97,7 @@ class UserPreferences : NSObject, NSCoding {
     }
     
     static func getDefaultPreferences() -> UserPreferences {
-        return UserPreferences(colour: .systemGreen, colourNum: 3, hexTabState: true, binTabState: true, decTabState: true, setCalculatorTextColour: true, copyActionIndex: 0, pasteActionIndex: 0, historyButtonViewIndex: 0)
+        return UserPreferences(colour: .systemBlue, colourNum: 4, hexTabState: false, binTabState: false, decTabState: true, setCalculatorTextColour: true, copyActionIndex: 0, pasteActionIndex: 0, historyButtonViewIndex: 0)
     }
 }
 

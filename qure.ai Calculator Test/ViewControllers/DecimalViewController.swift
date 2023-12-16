@@ -75,6 +75,16 @@ class DecimalViewController: UIViewController {
             historyButton.tintColor = savedPreferences.colour
             
             setupCalculatorTextColour(state: savedPreferences.setCalculatorTextColour, colourToSet: savedPreferences.colour)
+        } else {
+            let preferences = UserPreferences.getDefaultPreferences()
+            PLUSBtn.backgroundColor = preferences.colour
+            SUBBtn.backgroundColor = preferences.colour
+            MULTBtn.backgroundColor = preferences.colour
+            DIVBtn.backgroundColor = preferences.colour
+            EQUALSBtn.backgroundColor = preferences.colour
+            historyButton.tintColor = preferences.colour
+            
+            setupCalculatorTextColour(state: preferences.setCalculatorTextColour, colourToSet: preferences.colour)
         }
         
         //Setup gesture recognizers

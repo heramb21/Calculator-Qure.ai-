@@ -29,7 +29,7 @@ class ColourNumberConverter {
         case 7:
             return UIColor.systemPurple
         default:
-            return UIColor.systemGreen
+            return UIColor.systemBlue
         }
     }
     
@@ -98,7 +98,7 @@ class ColourNumberConverter {
         case 7:
             return "Violet"
         default:
-            return "Green"
+            return "Blue"
         }
     }
 }

@@ -59,7 +59,7 @@ class SettingsViewController: UIViewController {
             self.preferences.copyActionIndex = self.stateController?.convValues.copyActionIndex ?? 0
             self.preferences.pasteActionIndex = self.stateController?.convValues.pasteActionIndex ?? 1
             self.preferences.setCalculatorTextColour = self.stateController?.convValues.setCalculatorTextColour ?? false
-            self.preferences.colour = self.stateController?.convValues.colour ?? .systemGreen
+            self.preferences.colour = self.stateController?.convValues.colour ?? .systemBlue
         }
 
         // Set custom back button text to navigationItem
@@ -228,7 +228,7 @@ extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
             if let _ = tableView.cellForRow(at: indexPath), let destinationViewController = navigationController?.storyboard?.instantiateViewController(withIdentifier: SettingsSelectionViewController.identifier) as? SettingsSelectionViewController {
                 destinationViewController.selectionList = ["Red", "Orange", "Yellow", "Green", "Blue", "Teal", "Indigo", "Violet"]
                 destinationViewController.preferences = self.preferences
-                destinationViewController.selectedIndex = self.preferences.colourNum == -1 ? 3 : Int(self.preferences.colourNum)
+                destinationViewController.selectedIndex = self.preferences.colourNum == -1 ? 4 : Int(self.preferences.colourNum)
                 destinationViewController.selectionType = SelectionType.colour
                 destinationViewController.stateController = stateController
                 destinationViewController.name = "Colour"

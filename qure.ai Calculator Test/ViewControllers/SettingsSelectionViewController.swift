@@ -92,11 +92,11 @@ class SettingsSelectionViewController: UIViewController, UITableViewDelegate, UI
         
         // Currently selected index
         if indexPath.row == selectedIndex {
-            cell.configure(isSelected: true, colour: stateController?.convValues.colour ?? .systemGreen)
+            cell.configure(isSelected: true, colour: stateController?.convValues.colour ?? .systemBlue)
         }
         // Alternate choice
         else {
-            cell.configure(isSelected: false, colour: stateController?.convValues.colour ?? .systemGreen)
+            cell.configure(isSelected: false, colour: stateController?.convValues.colour ?? .systemBlue)
         }
         return cell
     }

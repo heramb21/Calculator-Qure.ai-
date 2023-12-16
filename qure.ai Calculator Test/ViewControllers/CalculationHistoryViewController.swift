@@ -32,11 +32,11 @@ extension CalculationHistoryViewController: UITableViewDelegate, UITableViewData
         let currentDate = NSDate.now
         if #available(iOS 14.0, *) {
             var contentConfiguration = cell.defaultContentConfiguration()
-            contentConfiguration.attributedText = NSAttributedString(string: operation + "(Timestamp:\(currentDate))", attributes: [.foregroundColor: UIColor.white])
+            contentConfiguration.attributedText = NSAttributedString(string: operation + "(Timestamp:\(currentDate.description.dropLast(5)))", attributes: [.foregroundColor: UIColor.white])
             cell.contentConfiguration = contentConfiguration
         } else {
             cell.textLabel?.textColor = .white
-            cell.textLabel?.text = operation + "(Timestamp:\(currentDate))"
+            cell.textLabel?.text = operation + "(Timestamp:\(currentDate.description.dropLast(5)))"
         }
         
         return cell
