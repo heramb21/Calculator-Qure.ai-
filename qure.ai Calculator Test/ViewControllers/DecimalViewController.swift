@@ -65,6 +65,8 @@ class DecimalViewController: UIViewController {
 
         outputLabel.accessibilityIdentifier = "Decimal Output Label"
         updateOutputLabel(value: "0")
+        SecondFunctionBtn.backgroundColor = .clear
+        SecondFunctionBtn.isUserInteractionEnabled = false
         
         if let savedPreferences = DataPersistence.loadPreferences() {
             PLUSBtn.backgroundColor = savedPreferences.colour

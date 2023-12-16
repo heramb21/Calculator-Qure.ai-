@@ -21,10 +21,10 @@
                                 <rect key="frame" x="0.0" y="48" width="414" height="765"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Tso-Od-qRK">
-                                        <rect key="frame" x="107.5" y="472" width="199" height="285"/>
+                                        <rect key="frame" x="120" y="472" width="174" height="285"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="x7U-6Y-xtI">
-                                                <rect key="frame" x="0.0" y="0.0" width="199" height="53"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="174" height="53"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGt-ab-cNX" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="42" height="53"/>
@@ -41,10 +41,10 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixf-bC-zBH" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
-                                                        <rect key="frame" x="47" y="0.0" width="55" height="53"/>
+                                                        <rect key="frame" x="47" y="0.0" width="30" height="53"/>
                                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
-                                                        <state key="normal" title="2nd">
+                                                        <state key="normal">
                                                             <color key="titleColor" systemColor="viewFlipsideBackgroundColor"/>
                                                         </state>
                                                         <userDefinedRuntimeAttributes>
@@ -55,7 +55,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGI-GF-Re1" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
-                                                        <rect key="frame" x="107" y="0.0" width="57" height="53"/>
+                                                        <rect key="frame" x="82" y="0.0" width="57" height="53"/>
                                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
                                                         <state key="normal" title="DEL">
@@ -69,7 +69,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgz-BA-a56" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
-                                                        <rect key="frame" x="169" y="0.0" width="30" height="53"/>
+                                                        <rect key="frame" x="144" y="0.0" width="30" height="53"/>
                                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
                                                         <state key="normal" title="÷">
@@ -85,7 +85,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="jBD-1W-5Rs">
-                                                <rect key="frame" x="0.0" y="58" width="199" height="53"/>
+                                                <rect key="frame" x="0.0" y="58" width="174" height="53"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bhw-CA-jbO" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="30" height="53"/>
@@ -102,7 +102,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZm-QX-XNn" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
-                                                        <rect key="frame" x="56.5" y="0.0" width="30" height="53"/>
+                                                        <rect key="frame" x="48" y="0.0" width="30" height="53"/>
                                                         <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
                                                         <state key="normal" title="8">
@@ -116,7 +116,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sjt-h1-8yo" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
-                                                        <rect key="frame" x="112.5" y="0.0" width="30" height="53"/>
+                                                        <rect key="frame" x="96" y="0.0" width="30" height="53"/>
                                                         <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
                                                         <state key="normal" title="9">
@@ -130,7 +130,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ChS-hY-bnZ" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
-                                                        <rect key="frame" x="169" y="0.0" width="30" height="53"/>
+                                                        <rect key="frame" x="144" y="0.0" width="30" height="53"/>
                                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
                                                         <state key="normal" title="×">
@@ -146,7 +146,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ik1-yt-gPR">
-                                                <rect key="frame" x="0.0" y="116" width="199" height="53"/>
+                                                <rect key="frame" x="0.0" y="116" width="174" height="53"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaK-Ms-QPA" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="30" height="53"/>
@@ -163,7 +163,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18T-0K-MDH" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
-                                                        <rect key="frame" x="56.5" y="0.0" width="30" height="53"/>
+                                                        <rect key="frame" x="48" y="0.0" width="30" height="53"/>
                                                         <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
                                                         <state key="normal" title="5">
@@ -177,7 +177,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUL-rT-LjU" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
-                                                        <rect key="frame" x="112.5" y="0.0" width="30" height="53"/>
+                                                        <rect key="frame" x="96" y="0.0" width="30" height="53"/>
                                                         <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
                                                         <state key="normal" title="6">
@@ -191,7 +191,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyB-Tq-6Ik" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
-                                                        <rect key="frame" x="169" y="0.0" width="30" height="53"/>
+                                                        <rect key="frame" x="144" y="0.0" width="30" height="53"/>
                                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
                                                         <state key="normal" title="-">
@@ -207,7 +207,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fE9-QK-tbS">
-                                                <rect key="frame" x="0.0" y="174" width="199" height="53"/>
+                                                <rect key="frame" x="0.0" y="174" width="174" height="53"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXM-OV-11R" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="30" height="53"/>
@@ -224,7 +224,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EF9-F3-uy1" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
-                                                        <rect key="frame" x="56.5" y="0.0" width="30" height="53"/>
+                                                        <rect key="frame" x="48" y="0.0" width="30" height="53"/>
                                                         <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
                                                         <state key="normal" title="2">
@@ -238,7 +238,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcf-Se-92M" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
-                                                        <rect key="frame" x="112.5" y="0.0" width="30" height="53"/>
+                                                        <rect key="frame" x="96" y="0.0" width="30" height="53"/>
                                                         <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
                                                         <state key="normal" title="3">
@@ -252,7 +252,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ef-s2-t2h" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
-                                                        <rect key="frame" x="169" y="0.0" width="30" height="53"/>
+                                                        <rect key="frame" x="144" y="0.0" width="30" height="53"/>
                                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
                                                         <state key="normal" title="+">
@@ -268,7 +268,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="II5-AF-eO4">
-                                                <rect key="frame" x="0.0" y="232" width="199" height="53"/>
+                                                <rect key="frame" x="0.0" y="232" width="174" height="53"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8x3-zc-kzc" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="30" height="53"/>
@@ -285,7 +285,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDQ-zX-Ks9" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
-                                                        <rect key="frame" x="84.5" y="0.0" width="30" height="53"/>
+                                                        <rect key="frame" x="72" y="0.0" width="30" height="53"/>
                                                         <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
                                                         <state key="normal" title=".">
@@ -299,7 +299,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4eS-Qc-Jzy" customClass="RoundButton" customModule="qure_ai_Calculator_Test" customModuleProvider="target">
-                                                        <rect key="frame" x="169" y="0.0" width="30" height="53"/>
+                                                        <rect key="frame" x="144" y="0.0" width="30" height="53"/>
                                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
                                                         <state key="normal" title="=">
@@ -572,7 +572,7 @@
             <size key="intrinsicContentSize" width="30" height="53"/>
         </designable>
         <designable name="ixf-bC-zBH">
-            <size key="intrinsicContentSize" width="55" height="53"/>
+            <size key="intrinsicContentSize" width="30" height="53"/>
         </designable>
         <designable name="kgz-BA-a56">
             <size key="intrinsicContentSize" width="30" height="53"/>
