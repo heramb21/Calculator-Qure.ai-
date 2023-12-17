@@ -38,6 +38,7 @@ class SettingsViewController: UIViewController {
         return table
     }()
     
+    // MARK: - View Controller Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(tableView)
@@ -127,6 +128,7 @@ class SettingsViewController: UIViewController {
 
 }
 
+    // MARK: - Table view data source & delegates
 extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
     // Setup number of rows per section
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -273,6 +275,7 @@ extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
+// MARK: - Extension
 //Adds state controller to the view controller
 extension SettingsViewController: StateControllerProtocol {
   func setState(state: StateController) {

@@ -8,11 +8,14 @@
 import UIKit
 
 class CalculationHistoryViewController: UIViewController {
-
+    
+    //MARK: Properties
     var calculationHistory: [CalculationData] = []
     
+    // MARK: - IBOutlets
     @IBOutlet weak var tableView: UITableView!
     
+    // MARK: - View Controller Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
@@ -21,6 +24,7 @@ class CalculationHistoryViewController: UIViewController {
     
 }
 
+    // MARK: - Table view data source & delegates
 extension CalculationHistoryViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return calculationHistory.count

@@ -43,6 +43,7 @@ class SettingsSelectionViewController: UIViewController, UITableViewDelegate, UI
         return table
     }()
     
+    // MARK: - View Controller Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(tableView)
@@ -69,6 +70,7 @@ class SettingsSelectionViewController: UIViewController, UITableViewDelegate, UI
         tableView.frame = view.bounds
     }
     
+    // MARK: - Table view data source & delegates
     // Setup number of rows
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.numberOfRows
