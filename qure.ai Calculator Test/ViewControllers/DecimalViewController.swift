@@ -59,7 +59,7 @@ class DecimalViewController: UIViewController {
     var calculationHistory: [CalculationData] = []
 
     
-    
+    // MARK: - View Controller Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
